@@ -1,0 +1,14 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "Android AsyncTask Example",
+      "category": "Android"
+    },
+    {
+      "title": "Angular 5 CRUD Example",
+      "category": "Angular",
+      "id": 2
+    }
+  ]
+}

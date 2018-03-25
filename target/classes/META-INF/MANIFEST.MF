@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1521887599674
+Build-Jdk: 1.8.0_131
+Built-By: QuanTDA1
+Bundle-ManifestVersion: 2
+Bundle-Name: test-frontend
+Bundle-SymbolicName: vn.quantda.test-frontend
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Tool: Bnd-3.3.0.201609221906
+Web-ContextPath: /angular-test
