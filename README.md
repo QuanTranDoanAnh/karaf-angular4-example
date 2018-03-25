@@ -1,27 +1,12 @@
-# TestFrontend
+# Building Angular 4 Web Bundle for Apache Karaf
+
+Following the tutorial at link: http://blog.nanthrax.net/?p=827 with simple CRUD added.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+Then a pom.xml is added to turn it into a Web Bundle for Karaf.
 
-## Development server
+## Try the example code
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+1. Run `mvn clean install` to get Angular CLI to generate deployable source code and to have Maven to package it into Karaf-compatible bundle. 
+2. From Karaf console, run `install mvn:vn.quantda/test-frontend/1.0-SNAPSHOT` to deploy the web bundle to Karaf.
+3. Open browser, browse to http://localhost:8181/angular-test/ to enjoy the web app.
